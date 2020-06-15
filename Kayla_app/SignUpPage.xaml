@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kayla_app.SignUpPage">
+    <StackLayout>
+        <StackLayout HorizontalOptions="FillAndExpand"
+                     VerticalOptions="Start"
+                     Padding="40">
+            <Label HorizontalOptions="Start"
+                   VerticalOptions="End"
+                   Text="Register"
+                   FontSize="48"
+                   FontAttributes="Bold"/>
+
+        </StackLayout>
+        <StackLayout VerticalOptions="Center"
+                     HorizontalOptions="FillAndExpand"
+                     Padding="30, 0">
+            <Label HorizontalOptions="Start"
+                   VerticalOptions="StartAndExpand"
+                   Text="username"/>
+            <Entry HorizontalOptions="FillAndExpand"
+                   VerticalOptions="StartAndExpand"
+                   Placeholder="enter your username"/>
+            <Label HorizontalOptions="Start"
+                   VerticalOptions="StartAndExpand"
+                   Text="email"/>
+            <Entry HorizontalOptions="FillAndExpand"
+                   VerticalOptions="StartAndExpand"
+                   Placeholder="enter your email"
+                   Keyboard="Email"/>
+            <Label HorizontalOptions="Start"
+                   VerticalOptions="StartAndExpand"
+                   Text="password"/>
+            <Entry HorizontalOptions="FillAndExpand"
+                   VerticalOptions="StartAndExpand"
+                   Placeholder="enter your password"
+                   IsPassword="True"/>
+            <Label HorizontalOptions="Start"
+                   VerticalOptions="StartAndExpand"
+                   Text="confirm password"/>
+            <Entry HorizontalOptions="FillAndExpand"
+                   VerticalOptions="StartAndExpand"
+                   Placeholder="comfirm your password"
+                   IsPassword="True"/>
+
+        </StackLayout>
+
+
+        <StackLayout HorizontalOptions="FillAndExpand"
+                     VerticalOptions="End">
+            <Button HorizontalOptions="Center"
+                    VerticalOptions="Start"
+                    BackgroundColor="DarkBlue"
+                    Text="sign up"
+                    TextColor="White"
+                    Padding="20,0"
+                    Margin="20"/>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

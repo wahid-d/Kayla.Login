@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" x:Class="Kayla_app.MainPage">
+    <StackLayout HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand">
+
+        <StackLayout HorizontalOptions="FillAndExpand"
+                     VerticalOptions="FillAndExpand">
+
+            <Label HorizontalOptions="Start"
+                   VerticalOptions="CenterAndExpand"
+                   Text="Login"
+                   FontAttributes="Bold"
+                   FontSize="48"
+                   Margin="50, 0, 0, 0"/>
+
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="FillAndExpand"
+                     VerticalOptions="Center">
+
+            <Entry HorizontalOptions="FillAndExpand"
+                   Margin="20, 0"
+                   Placeholder="Enter your email..."
+                   Keyboard="Email"/>
+
+            <Entry HorizontalOptions="FillAndExpand"
+                   Margin="20, 0"
+                   Placeholder="Enter your password..."
+                   Keyboard="Numeric"
+                   IsPassword="True"/>
+            <Button HorizontalOptions="Start"
+                   VerticalOptions="StartAndExpand"
+                   Text="sign up"
+                   Margin="24, -10"
+                   Clicked="Button_Clicked"/>
+
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="FillAndExpand"
+                     VerticalOptions="StartAndExpand">
+            <Button HorizontalOptions="Center"
+                    VerticalOptions="StartAndExpand"
+                    Text="Login"
+                    FontSize="24"
+                    BackgroundColor="CornflowerBlue"
+                    Padding="12,0"
+                    TextColor="Black"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
